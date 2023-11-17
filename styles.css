@@ -1,4 +1,4 @@
-body {
+.body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,12 +19,15 @@ select {
 
 table {
   border: 1px solid lightgray;
+  border-collapse: collapse;
 }
 
 th {
   background-color: white;
   padding: 0;
   margin: 0;
+  border: 1px solid;
+  text-align: left;
 }
 
 /* td {
@@ -34,9 +37,15 @@ th {
 th,
 td,
 tr {
-  width: 50%;
+  width: 30%;
+  height: 1.5rem;
+  border: 1px solid lightgray;
 }
 
 tr:nth-child(odd) {
   background-color: lightgray;
+}
+
+p {
+  display: flex;
 }
