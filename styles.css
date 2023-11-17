@@ -19,15 +19,24 @@ select {
 
 table {
   border: 1px solid lightgray;
-  width: 100%;
-}
-
-tr:nth-child(odd) {
-  background-color: lightgray;
 }
 
 th {
   background-color: white;
   padding: 0;
   margin: 0;
+}
+
+/* td {
+  width: 50%;
+} */
+
+th,
+td,
+tr {
+  width: 50%;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
 }
