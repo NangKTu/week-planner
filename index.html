@@ -97,7 +97,8 @@
   </div>
   <div class="modal">
     <div class="box">
-      <label>Time of Event</label><br>
+      <label id = "title-1">Time of Event</label><br>
+      <div>
       <select name="select" id="select2">
         <option value="">Choose a time</option>
         <option value="0030">00:30</option>
@@ -109,6 +110,7 @@
         <option value="0330">03:30</option>
         <option value="0400">04:00</option>
       </select><br>
+      </div>
       <label>Day of Week</label><br>
       <select name="select" id="select3">
         <option value="">Choose a day</option>
@@ -121,9 +123,11 @@
         <option value="sunday">Sunday</option>
       </select><br>
       <label>Event Information:</label><br>
-      <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br>
-      <button>CANCEL</button>
-      <button>CONFIRM</button>
+      <textarea id="textarea" name="textarea" rows="15" cols="35"></textarea><br>
+      <div class = buttons>
+      <button id = "button1">CANCEL</button>
+      <button id = "button2">CONFIRM</button>
+      </div>
     </div>
   </div>
   <script src="main.js"></script>

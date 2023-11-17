@@ -19,7 +19,16 @@ select {
   margin: 10px 0;
 }
 
-select:focus {
+#select2,
+#select3,
+#textarea {
+  width: 100%;
+}
+
+select:focus,
+#select2:focus,
+#select3:focus,
+#textarea:focus {
   outline: 2px solid lightskyblue;
 }
 
@@ -50,4 +59,22 @@ tr:nth-child(odd) {
 
 p {
   display: flex;
+}
+
+.box {
+  outline: 1px solid black;
+  width: 250px;
+  height: 450px;
+  text-align: left;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#button2 {
+  background-color: green;
+  color: white;
 }
