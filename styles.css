@@ -11,10 +11,16 @@ button {
   border-radius: 10%;
   margin-top: 60px;
   font-size: 10px;
+  border: none;
+  padding: 5px;
 }
 
 select {
   margin: 10px 0;
+}
+
+select:focus {
+  outline: 2px solid lightskyblue;
 }
 
 table {
